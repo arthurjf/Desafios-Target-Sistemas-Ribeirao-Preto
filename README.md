@@ -1,4 +1,4 @@
-# **Desafios da Vaga de Estágio da Target Sistemas de Ribeirão Preto**
+# **Desafios Resolvidos da Vaga de Estágio da Target Sistemas de Ribeirão Preto**
 
 Os desafios foram resolvidos na linguagem de programação Python. Sendo cada arquivo.py correspondente as questões propostas:
 - [Resolução da Questão 01](questao01.py)
