@@ -9,14 +9,14 @@
 
 MENSAGEM_RESPOSTA = "{0}\t Resposta: {1}"
 
-# a) Números ímpares
+# a) Solução: Números ímpares
 def a():
     for i in range(1, 100, 2):
          if(i > 7):
               print(MENSAGEM_RESPOSTA.format("a)", i))
               return
 
-# b) Multiplicar última sequência por 2
+# b) Solução: Multiplicar última sequência por 2
 def b():
     sequencia = 1
     ultimo = 2
@@ -27,7 +27,7 @@ def b():
             break
     print(MENSAGEM_RESPOSTA.format("b)", sequencia))
 
-# c) Somar números ímpares com o anterior
+# c) Solução: Somar números ímpares com o anterior
 def c():
     ultimo = 0
     for i in range(1, 100, 2):
@@ -36,7 +36,7 @@ def c():
               print(MENSAGEM_RESPOSTA.format("c)", ultimo))
               return
          
-# d) O quadrado de números pares
+# d) Solução: O quadrado de números pares
 def d():
     for i in range(2, 100, 2):
          temp = pow(i, 2)
@@ -44,7 +44,7 @@ def d():
               print(MENSAGEM_RESPOSTA.format("d)", temp))
               return
 
-# e) Somar os dois números anteriores da sequência
+# e) Solução: Somar os dois números anteriores da sequência
 def e():
     ultimo = 0
     anterior = 1
@@ -56,11 +56,11 @@ def e():
             break
     print(MENSAGEM_RESPOSTA.format("e)", anterior))
 
-# Utilize o comando abaixo para instalar a biblioteca num2words. Tal biblioteca serve para converter números por extenso
+# Utilize o comando abaixo para instalar a biblioteca num2words. Tal biblioteca converter números em números por extenso
 # pip install num2words
 from num2words import num2words
 
-# f) Encontrar o próximo número que comece com a letra D
+# f) Solução: Encontrar o próximo número que comece com a letra D
 def f():
     numero = 20
     while(True):
@@ -77,7 +77,7 @@ d()
 e()
 f()
 
-# Saída
+# Saída com as respostas:
 # a)       Resposta: 9
 # b)       Resposta: 128
 # c)       Resposta: 49
