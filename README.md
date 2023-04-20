@@ -15,6 +15,7 @@ Nesta seção serão descrito(s) a(s) biblioteca(s) utilizada(s) na resolução 
 
 Biblioteca utilizada para converter números em números por exemplo, exemplo ```21``` em ```vinte e um```. Ela foi utilizada na [questão 03](questao03.py)
 
+Utilize o comando abaixo no terminal para instalar a biblioteca:
 ```git 
 pip install num2words 
 ```
