@@ -13,7 +13,7 @@ Nesta seção serão descrita(s) a(s) biblioteca(s) utilizada(s) na resolução 
 
 ## **[num2words](https://pypi.org/project/num2words/)**
 
-Biblioteca utilizada para converter números em números por exemplo, por exemplo ```21``` em ```vinte e um```. Ela foi utilizada na [questão 03](questao03.py)
+Biblioteca utilizada para converter números em números, por exemplo ```21``` em ```vinte e um```. Ela foi utilizada na [questão 03](questao03.py)
 
 Utilize o comando abaixo no terminal para instalar a biblioteca:
 ```git 
